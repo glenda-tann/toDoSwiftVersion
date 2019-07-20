@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0826D1F622E0495600FAACE8 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826D1F522E0495600FAACE8 /* EditTableViewController.swift */; };
+		08D0A4FF22E201D40042E5BB /* heehee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08D0A4FE22E201D40042E5BB /* heehee.jpg */; };
 		6886C86E22D96EE600F34E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C86D22D96EE600F34E86 /* AppDelegate.swift */; };
 		6886C87022D96EE600F34E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C86F22D96EE600F34E86 /* ViewController.swift */; };
 		6886C87322D96EE600F34E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6886C87122D96EE600F34E86 /* Main.storyboard */; };
 		6886C87522D96EE900F34E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886C87422D96EE900F34E86 /* Assets.xcassets */; };
 		6886C87822D96EE900F34E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6886C87622D96EE900F34E86 /* LaunchScreen.storyboard */; };
+		6886C88022D9743E00F34E86 /* listOfToDosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C87F22D9743E00F34E86 /* listOfToDosTableViewController.swift */; };
+		6886C88222D97AEE00F34E86 /* toDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C88122D97AEE00F34E86 /* toDos.swift */; };
+		6886C88422D97D0700F34E86 /* toDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C88322D97D0700F34E86 /* toDoTableViewCell.swift */; };
+		6886C88622D9807800F34E86 /* glenda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6886C88522D9807800F34E86 /* glenda.jpg */; };
+		6886C88822D9868800F34E86 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886C88722D9868800F34E86 /* detailsViewController.swift */; };
+		6886C88A22D9940C00F34E86 /* stella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6886C88922D9940C00F34E86 /* stella.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0826D1F522E0495600FAACE8 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		08D0A4FE22E201D40042E5BB /* heehee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heehee.jpg; sourceTree = "<group>"; };
 		6886C86A22D96EE600F34E86 /* toDo Swift Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toDo Swift Version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6886C86D22D96EE600F34E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6886C86F22D96EE600F34E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		6886C87422D96EE900F34E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6886C87722D96EE900F34E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6886C87922D96EE900F34E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6886C87F22D9743E00F34E86 /* listOfToDosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfToDosTableViewController.swift; sourceTree = "<group>"; };
+		6886C88122D97AEE00F34E86 /* toDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDos.swift; sourceTree = "<group>"; };
+		6886C88322D97D0700F34E86 /* toDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoTableViewCell.swift; sourceTree = "<group>"; };
+		6886C88522D9807800F34E86 /* glenda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glenda.jpg; sourceTree = "<group>"; };
+		6886C88722D9868800F34E86 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		6886C88922D9940C00F34E86 /* stella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stella.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +70,17 @@
 		6886C86C22D96EE600F34E86 /* toDo Swift Version */ = {
 			isa = PBXGroup;
 			children = (
+				6886C88122D97AEE00F34E86 /* toDos.swift */,
+				6886C88322D97D0700F34E86 /* toDoTableViewCell.swift */,
+				6886C88922D9940C00F34E86 /* stella.jpg */,
+				6886C88522D9807800F34E86 /* glenda.jpg */,
 				6886C86D22D96EE600F34E86 /* AppDelegate.swift */,
+				6886C87F22D9743E00F34E86 /* listOfToDosTableViewController.swift */,
 				6886C86F22D96EE600F34E86 /* ViewController.swift */,
 				6886C87122D96EE600F34E86 /* Main.storyboard */,
+				08D0A4FE22E201D40042E5BB /* heehee.jpg */,
+				0826D1F522E0495600FAACE8 /* EditTableViewController.swift */,
+				6886C88722D9868800F34E86 /* detailsViewController.swift */,
 				6886C87422D96EE900F34E86 /* Assets.xcassets */,
 				6886C87622D96EE900F34E86 /* LaunchScreen.storyboard */,
 				6886C87922D96EE900F34E86 /* Info.plist */,
@@ -122,9 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6886C88622D9807800F34E86 /* glenda.jpg in Resources */,
 				6886C87822D96EE900F34E86 /* LaunchScreen.storyboard in Resources */,
 				6886C87522D96EE900F34E86 /* Assets.xcassets in Resources */,
 				6886C87322D96EE600F34E86 /* Main.storyboard in Resources */,
+				6886C88A22D9940C00F34E86 /* stella.jpg in Resources */,
+				08D0A4FF22E201D40042E5BB /* heehee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6886C88022D9743E00F34E86 /* listOfToDosTableViewController.swift in Sources */,
+				6886C88822D9868800F34E86 /* detailsViewController.swift in Sources */,
+				6886C88422D97D0700F34E86 /* toDoTableViewCell.swift in Sources */,
+				0826D1F622E0495600FAACE8 /* EditTableViewController.swift in Sources */,
 				6886C87022D96EE600F34E86 /* ViewController.swift in Sources */,
 				6886C86E22D96EE600F34E86 /* AppDelegate.swift in Sources */,
+				6886C88222D97AEE00F34E86 /* toDos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
