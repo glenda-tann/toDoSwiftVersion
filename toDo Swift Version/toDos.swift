@@ -21,7 +21,6 @@ class contentsToDos: Codable {
         case image
     }
     
-
     var item: String
     var description: String
     var date: Date
