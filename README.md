@@ -1,2 +1,2 @@
 # toDoSwiftVersion
-This is an to-do-list app that I created with Min Jia and Qian Ning. 
+This is a to-do-list app that I created with Min Jia and Qian Ning. 
